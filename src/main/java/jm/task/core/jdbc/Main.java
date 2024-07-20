@@ -29,8 +29,8 @@ public class Main {
             System.out.println(user);
         }
         // Очищаем таблицу
-//        userService.cleanUsersTable();
+        userService.cleanUsersTable();
         // Удаляем таблицу
-//        userService.dropUsersTable();
+        userService.dropUsersTable();
     }
 }
